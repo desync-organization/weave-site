@@ -1,6 +1,6 @@
 # Weave
 
-The social layer for open source — a single-page Next.js experience for discovering repositories through the people building them.
+The social layer for open source: a single-page Next.js experience for discovering repositories through the people building them.
 
 ## Local development
 

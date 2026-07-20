@@ -3,7 +3,7 @@ import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 
 const siteUrl = "https://weave.krishang.dev";
-const socialTitle = "Weave — Follow, Share, and Discover GitHub Repositories";
+const socialTitle = "Weave: Follow, Share, and Discover GitHub Repositories";
 
 const xVF = Inter({
   variable: "--font-xvf",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: socialTitle,
-    template: "%s — Weave",
+    template: "%s | Weave",
   },
   description:
     "Follow repositories, share what you ship, and discover open-source projects through the people building them.",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: `${siteUrl}/og.png`,
         width: 1200,
         height: 630,
-        alt: "Weave — Instagram, but for GitHub repositories.",
+        alt: "Weave: Instagram, but for GitHub repositories.",
       },
     ],
   },

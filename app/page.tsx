@@ -26,7 +26,7 @@ const features: Array<{
   },
   {
     title: "Catch projects early",
-    body: "Find rising repositories through real people — before a star count tells everyone else.",
+    body: "Find rising repositories through real people before a star count tells everyone else.",
     variant: "momentum",
     code: "RISE / 03",
   },
