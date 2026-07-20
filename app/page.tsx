@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import {
   OrbitCTA,
@@ -6,10 +5,6 @@ import {
   type SignalVariant,
 } from "./components/WeaveIllustrations";
 import { SiteShell } from "./components/SiteShell";
-
-export const metadata: Metadata = {
-  title: "Weave",
-};
 
 const features: Array<{
   title: string;
