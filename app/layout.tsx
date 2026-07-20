@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 
-const siteUrl = process.env.VERCEL_URL
-  ? `https://${process.env.VERCEL_URL}`
-  : "http://localhost:3000";
+const siteUrl = "https://weave.krishang.dev";
 
 const xVF = Inter({
   variable: "--font-xvf",
@@ -24,6 +22,9 @@ export const metadata: Metadata = {
   },
   description:
     "Follow repositories, share what you ship, and discover open-source projects through the people building them.",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/weave-logo-mark.svg",
     shortcut: "/weave-logo-mark.svg",
@@ -32,9 +33,10 @@ export const metadata: Metadata = {
     title: "Weave",
     description: "GitHub has repositories. Weave gives them a pulse.",
     type: "website",
+    url: siteUrl,
     images: [
       {
-        url: "/og.png",
+        url: `${siteUrl}/og.png`,
         width: 1200,
         height: 630,
         alt: "Weave — Open source, in motion.",
@@ -45,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Weave",
     description: "GitHub has repositories. Weave gives them a pulse.",
-    images: ["/og.png"],
+    images: [`${siteUrl}/og.png`],
   },
 };
 
