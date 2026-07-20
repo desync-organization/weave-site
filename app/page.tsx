@@ -8,7 +8,7 @@ import {
 import { SiteShell } from "./components/SiteShell";
 
 export const metadata: Metadata = {
-  title: "Weave — The social layer for open source",
+  title: "Weave",
 };
 
 const features: Array<{
@@ -68,8 +68,8 @@ export default function Home() {
             <div className="intro-copy">
               <p className="intro-kicker">The social layer for GitHub repositories</p>
               <h1>
-                Open source,
-                <span>in motion.</span>
+                Instagram but,
+                <span>GitHub Repos.</span>
               </h1>
               <p className="intro-lede">
                 Follow repositories like people. Share releases like stories.

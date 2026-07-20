@@ -19,7 +19,7 @@ const xVFDisplay = Inter_Tight({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Weave — The social layer for open source",
+    default: "Weave",
     template: "%s — Weave",
   },
   description:
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     shortcut: "/weave-logo-mark.svg",
   },
   openGraph: {
-    title: "Weave — The social layer for open source",
+    title: "Weave",
     description: "GitHub has repositories. Weave gives them a pulse.",
     type: "website",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Weave — The social layer for open source",
+    title: "Weave",
     description: "GitHub has repositories. Weave gives them a pulse.",
     images: ["/og.png"],
   },
