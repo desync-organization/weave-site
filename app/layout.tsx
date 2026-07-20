@@ -37,8 +37,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: `${siteUrl}/og.png`,
-        width: 1200,
-        height: 630,
+        width: 1645,
+        height: 780,
         alt: "Weave — Open source, in motion.",
       },
     ],
